@@ -1,0 +1,76 @@
+Step 1: Collect the Data and Explore it
+Step 2: Clean and Preprocess the Data
+Step 3: Exploratory Data Analysis
+Step 4: Feature Engineering 
+Step 5: Document the Findings
+
+
+Structure goal for this project will be as follows:
+
+credit_risk_assessment/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│   ├── eda.ipynb
+│   ├── model_training.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model.py
+│   ├── evaluation.py
+│
+├── app/
+│   ├── main.py
+│   ├── templates/
+│   ├── static/
+│
+├── reports/
+│   ├── eda_report.pdf
+│   ├── model_report.pdf
+│
+├── requirements.txt
+├── README.md
+└── setup.py
+
+Project Folder Structure
+Imagine your project folder as a big container where you keep everything organized. Here’s how you can organize it:
+
+1. Main Project Folder (credit_risk_assessment)
+This is the main folder where everything related to your project will be stored.
+
+2. Data Folder (data)
+Purpose: To store your datasets.
+Subfolders:
+raw: Contains the original datasets you collected.
+processed: Contains the cleaned and prepared datasets you will use for analysis.
+3. Notebooks Folder (notebooks)
+Purpose: To store Jupyter notebooks.
+Files:
+eda.ipynb: A notebook where you do Exploratory Data Analysis (EDA) to understand your data.
+model_training.ipynb: A notebook where you build and train your machine learning models.
+4. Source Code Folder (src)
+Purpose: To store Python scripts for different tasks.
+Files:
+data_preprocessing.py: Code for cleaning and preparing your data.
+feature_engineering.py: Code for creating new features from your data.
+model.py: Code for building and training your machine learning models.
+evaluation.py: Code for evaluating how well your models are performing.
+5. Application Folder (app)
+Purpose: To store files for deploying your project as a web application.
+Files:
+main.py: The main script for running your web application.
+templates/: A folder for storing HTML templates for your web pages.
+static/: A folder for storing static files like CSS and JavaScript.
+6. Reports Folder (reports)
+Purpose: To store reports generated from your analysis.
+Files:
+eda_report.pdf: A report summarizing your Exploratory Data Analysis.
+model_report.pdf: A report summarizing your model performance.
+7. Other Important Files
+requirements.txt: A file listing all the Python packages your project needs to run.
+README.md: A file explaining what your project is about and how to use it.
+setup.py: A file to help install your project as a package (optional for beginners).
